@@ -66,6 +66,10 @@ Menu driven <a href="https://en.wikipedia.org/wiki/Command-line_interface">CLI</
         Setting the website domain is essential to get results otherwise one can not use menu options related to website domains : <BR />
         <p align="center"><img src="AppScreens/Main_app.png" /></p>
     </li>
+    <li>
+        Providing <i>empty</i> input will clear the domain that is set previously : <BR />
+        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+    </li>
   </ul>
 
   <h3><b>2. Extract IP details :</b></h3>
