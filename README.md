@@ -120,6 +120,11 @@ CLI application that can extract the details for given website or local machine.
     <li>
         As soon as the application launched, it checks and creates a copy of itself at TEMP path and make it hidden in order to keep a persistence :
         <p align="center"><img src="AppScreens/Main_app.png" /></p>
+        - Functions used : <BR />
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-gettemppatha">GetTempPathA()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-copyfilea">CopyFileA()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributesA()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-setfileattributesa">SetFileAttributesA()</a>.
     </li>
   </ul>
 
@@ -128,10 +133,20 @@ CLI application that can extract the details for given website or local machine.
     <li>
         Application adds some entries in Windows registry to autostart itself alongwith calculator and a text file saved as hidden at TEMP location : <BR />
         <p align="center"><img src="AppScreens/Main_app.png" /></p>
+        - Functions used : <BR />
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regopencurrentuser">RegOpenCurrentUser()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regsetkeyvaluea">RegSetKeyValueA()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regsetkeyvaluea">RegSetKeyValueA()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-gettemppatha">GetTempPathA()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-createfilea">CreateFileA()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-writefile">WriteFile()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/handleapi/nf-handleapi-closehandle">CloseHandle()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regsetkeyvaluea">RegSetKeyValueA()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regclosekey">RegCloseKey()</a>.
     </li>
   </ul>
 
 <BR />
 
 <h2><u>NOTE</u> :</h2>
-As mentioned in <i>hidden features</i> above, application uses core Windows OS libraries and to avoid the use for malicious purposes, the source code is not open sourced; instead the executable is provided.  <BR />
+As mentioned in <i>hidden features</i> above, application uses core Windows OS headers and to avoid its use for malicious purposes, the source code is not open sourced; instead the executable is provided.  <BR />
