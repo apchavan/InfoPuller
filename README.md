@@ -5,7 +5,7 @@ Menu driven <a href="https://en.wikipedia.org/wiki/Command-line_interface">CLI</
 
 <u><i>Visible</i></u> key features : <BR />
 
-- Extract all of the available IPv4 and IPv6 addresses for given website.
+- Extract all of the available <a href="https://en.wikipedia.org/wiki/IPv4">IPv4 and <a href="https://en.wikipedia.org/wiki/IPv6">IPv6</a> addresses for given website.
 - Fetch response <a href="https://developers.google.com/search/docs/advanced/robots/intro">robots.txt</a> for given website, then save and/or show.
 - Extract local machine's available IPv4 and IPv6 addresses.
 - Extract <a href="https://en.wikipedia.org/wiki/MAC_address">Media Access Control (MAC)</a> details for local machine, either in <i>basic</i> or in <i>detailed</i> form.
