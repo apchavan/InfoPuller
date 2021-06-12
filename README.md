@@ -1,5 +1,5 @@
 # InfoPuller
-CLI application that can extract the details for given website or local machine. It also has basic persistence that might used in malware or threat. It's a personal study project. 🙂
+CLI application that can get basic details for given website domain or local machine. It also has basic persistence that might used in malware or threat. It's a personal study project. 🙂
 
 <h2><u>Features overview</u> :</h2>
 
