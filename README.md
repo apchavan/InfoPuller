@@ -169,4 +169,4 @@ CLI application that can extract the details for given website or local machine.
 
 <BR />
 <h2><u>NOTE</u> :</h2>
-As mentioned in <i>hidden features</i> above, application uses core Windows OS headers and to avoid its use for malicious purposes, the source code is not open sourced; instead the executable is provided.  <BR />
+As listed in <i>hidden features</i> above, application uses core Windows OS headers and to avoid its use for malicious purposes, the code is not open sourced; instead the executable is provided.  <BR />
