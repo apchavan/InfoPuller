@@ -3,14 +3,16 @@ CLI application that can extract the details for given website or local machine.
 
 <h2><u>Features overview</u> :</h2>
 
-The <u><i>visible</i></u> key features :
+<u><i>Visible</i></u> key features : <BR />
+
 - Extract all of the available IPv4 and IPv6 addresses for given website.
 - Fetch response <a href="https://developers.google.com/search/docs/advanced/robots/intro">robots.txt</a> for given website, then save and/or show.
 - Extract local machine's available IPv4 and IPv6 addresses.
 - Extract <a href="https://en.wikipedia.org/wiki/MAC_address">Media Access Control (MAC)</a> details for local machine, either in <i>basic</i> or in <i>detailed</i> form.
 
-Interesting <u><i>invisible</i></u> key features :
-- The app copies itself to other place and becomes hidden.
+<u><i>Hidden</i></u> key features : <BR />
+
+- The application copies itself to other place and becomes hidden.
 - Makes changes in Windows registry to autostart things after every system startup.
 
 <h2><u><a href="https://docs.microsoft.com/en-us/windows/win32/api/">Win32</a> API headers</u> :</h2>
@@ -44,10 +46,12 @@ Interesting <u><i>invisible</i></u> key features :
 
 <h2><u>Features in detail</u> :</h2>
 
+- <u><i>Visible</i></u> key features : <BR />
+
   <h3><b>1. Set website domain :</b></h3>
   <ul> 
     <li>
-        On launch, the app opens the console window and makes it maximized having some fancy text representing the name of application, and few numbered menu options to choose from : <BR />
+        When application is launched, the console window gets opened and gets auto-maximized having some fancy text representing the name of application with few numbered menu options to choose from : <BR />
         <p align="center"><img src="AppScreens/Main_app.png" /></p>
     </li>
     <li>
@@ -55,8 +59,10 @@ Interesting <u><i>invisible</i></u> key features :
         <p align="center"><img src="AppScreens/Main_app.png" /></p>
     </li>
     <li>
-        Now the website domain is all set; then the other related menu options also get reflected : <BR />
+        Now the website domain is all set; the other related menu options also get reflected : <BR />
         <p align="center"><img src="AppScreens/Main_app.png" /></p>
+    </li>
+    <li>
         Setting the website domain is essential to get results otherwise one can not use menu options related to website domains : <BR />
         <p align="center"><img src="AppScreens/Main_app.png" /></p>
     </li>
@@ -65,9 +71,67 @@ Interesting <u><i>invisible</i></u> key features :
   <h3><b>2. Extract IP details :</b></h3>
   <ul>
     <li>
-        If the website domain set properly, program will list of all available IPv4 and IPv6 addresses and if any of IPv4 or IPv6 is not available, then useful message with related error code is returned : <BR />
+        If the website domain set properly, program will list of all available IPv4 and IPv6 addresses : <BR />
+        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+    </li>
+    <li>
+        If any of IPv4 or IPv6 is not available, then useful message with related error code is returned : <BR />
         <p align="center"><img src="AppScreens/Main_app.png" /></p>
     </li>
   </ul>
 
-  
+  <h3><b>3. Fetch 'robots.txt' :</b></h3>
+  <ul>
+    <li>
+        Based on the website domain, the program will try to get contents of 'robots.txt' and will ask user to choose either save (S) or print (p) : <BR />
+        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+    </li>
+    <li>
+        If user opted to save (S), program will save the response content in uniquely generated TEMP file and again will ask whether to view saved file in notepad (by creating separate process) : <BR />
+        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+    </li>
+    <li>
+        If user opted to print (p), program will print the response content in console : <BR />
+        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+    </li>
+  </ul>
+
+  <h3><b>4. My machine's IP :</b></h3>
+  <ul>
+    <li>
+        Shows the available IPv4 and IPv6 for the local machine. Here the IP addresses mostly contain collection of local and global addresses : <BR />
+        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+    </li>
+  </ul>
+
+  <h3><b>5. My Media Access Control (MAC) details :</b></h3>
+  <ul>
+    <li>
+        Shows the <a href="https://en.wikipedia.org/wiki/MAC_address">Media Access Control (MAC)</a> details for local machine. It offers to choose either basic (B) or detailed (d). <BR /> 
+        The <i>basic mode</i> is similar to the command <b><i><u>ipconfig /all</u></i></b> and the detailed mode performs extensive searching and provide hardware details including the adapters created by virtualization softwares : <BR />
+        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+    </li>
+  </ul>
+
+- <u><i>Hidden</i></u> key features : <BR />
+
+  <h3><b>1. Copy application and make hidden :</b></h3>
+  <ul>
+    <li>
+        As soon as the application launched, it checks and creates a copy of itself at TEMP path and make it hidden in order to keep a persistence :
+        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+    </li>
+  </ul>
+
+  <h3><b>2. Change Windows registry for autostart :</b></h3>
+  <ul>
+    <li>
+        Application adds some entries in Windows registry to autostart itself alongwith calculator and a text file saved as hidden at TEMP location : <BR />
+        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+    </li>
+  </ul>
+
+<BR />
+
+<h2><u>NOTE</u> :</h2>
+As mentioned in <i>hidden features</i>, application uses core Windows OS libraries and to avoid the use for malicious purposes, source code is not open sourced; instead the executable is provided.  <BR />
