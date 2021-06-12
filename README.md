@@ -110,6 +110,11 @@ CLI application that can extract the details for given website or local machine.
         Shows the <a href="https://en.wikipedia.org/wiki/MAC_address">Media Access Control (MAC)</a> details for local machine. It offers to choose either basic (B) or detailed (d). <BR /> 
         The <i>basic mode</i> is similar to the command <b><i><u>ipconfig /all</u></i></b> and the detailed mode performs extensive searching and provide hardware details including the adapters created by virtualization softwares : <BR />
         <p align="center"><img src="AppScreens/Main_app.png" /></p>
+        - Functions used : <BR />
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/heapapi/nf-heapapi-heapalloc">HeapAlloc()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/heapapi/nf-heapapi-heapfree">HeapFree()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap()</a>.
     </li>
   </ul>
 
