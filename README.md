@@ -172,5 +172,16 @@ Menu driven <a href="https://en.wikipedia.org/wiki/Command-line_interface">CLI</
   </ul>
 
 <BR />
+- Other functions used : <BR />
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-wsastartup">WSAStartup()</a>,
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-wsacleanup">WSACleanup()</a>,
+<a href="https://docs.microsoft.com/en-us/windows/console/setconsoletitle">SetConsoleTitleA()</a>,
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlsecurezeromemory">SecureZeroMemory() (or RtlSecureZeroMemory())</a>,
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-findwindowa">FindWindowA()</a>,
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-showwindow">ShowWindow()</a>,
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow()</a>.
+
+
+<BR />
 <h2><u>NOTE</u> :</h2>
 As listed in <i>hidden features</i> above, application uses core Windows OS headers and to avoid its use for malicious purposes, the code is not open sourced; instead the executable is provided.  <BR />
