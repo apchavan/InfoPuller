@@ -46,12 +46,12 @@ CLI application that can extract the details for given website or local machine.
 
 <h2><u>Features in detail</u> :</h2>
 
-- <u><i>Visible</i></u> key features : <BR />
+<h3>{🌟} <u><i>Visible</i></u> key features : </h3>
 
   <h3><b>1. Set website domain :</b></h3>
   <ul> 
     <li>
-        When application is launched, the console window gets opened and gets auto-maximized having some fancy text representing the name of application with few numbered menu options to choose from : <BR />
+        When application is launched, the console window will opened and gets auto-maximized containing some fancy text representing the name of application with few numbered menu options to choose from : <BR />
         <p align="center"><img src="AppScreens/Main_app.png" /></p>
     </li>
     <li>
@@ -77,6 +77,9 @@ CLI application that can extract the details for given website or local machine.
     <li>
         If any of IPv4 or IPv6 is not available, then useful message with related error code is returned : <BR />
         <p align="center"><img src="AppScreens/Main_app.png" /></p>
+        - Functions used : <BR />
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2tcpip/nf-ws2tcpip-inet_ntop">inet_ntop()</a>.
     </li>
   </ul>
 
@@ -93,6 +96,18 @@ CLI application that can extract the details for given website or local machine.
     <li>
         If user opted to print (p), program will print the response content in console : <BR />
         <p align="center"><img src="AppScreens/Main_app.png" /></p>
+        - Functions used : <BR />
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/wininet/nf-wininet-internetopena">InternetOpenA()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/wininet/nf-wininet-internetopenurla">InternetOpenUrlA()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/wininet/nf-wininet-internetclosehandle">InternetCloseHandle()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-gettemppatha">GetTempPathA()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-gettempfilenamea">GetTempFileNameA()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-createfilea">CreateFileA()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/wininet/nf-wininet-internetreadfile">InternetReadFile()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-writefile">WriteFile()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/handleapi/nf-handleapi-closehandle">CloseHandle()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/wininet/nf-wininet-internetclosehandle">InternetCloseHandle()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcessA()</a>.
     </li>
   </ul>
 
@@ -101,6 +116,9 @@ CLI application that can extract the details for given website or local machine.
     <li>
         Shows the available IPv4 and IPv6 for the local machine. Here the IP addresses mostly contain collection of local and global addresses : <BR />
         <p align="center"><img src="AppScreens/Main_app.png" /></p>
+        - Functions used : <BR />
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo()</a>,
+        <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2tcpip/nf-ws2tcpip-inet_ntop">inet_ntop()</a>.
     </li>
   </ul>
 
@@ -118,7 +136,7 @@ CLI application that can extract the details for given website or local machine.
     </li>
   </ul>
 
-- <u><i>Hidden</i></u> key features : <BR />
+<h3>{🌟} <u><i>Hidden</i></u> key features : </h3>
 
   <h3><b>1. Copy application and make hidden :</b></h3>
   <ul>
@@ -150,6 +168,5 @@ CLI application that can extract the details for given website or local machine.
   </ul>
 
 <BR />
-
 <h2><u>NOTE</u> :</h2>
 As mentioned in <i>hidden features</i> above, application uses core Windows OS headers and to avoid its use for malicious purposes, the source code is not open sourced; instead the executable is provided.  <BR />
