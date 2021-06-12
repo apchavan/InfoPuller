@@ -136,12 +136,10 @@ CLI application that can extract the details for given website or local machine.
         - Functions used : <BR />
         <a href="https://docs.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regopencurrentuser">RegOpenCurrentUser()</a>,
         <a href="https://docs.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regsetkeyvaluea">RegSetKeyValueA()</a>,
-        <a href="https://docs.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regsetkeyvaluea">RegSetKeyValueA()</a>,
         <a href="https://docs.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-gettemppatha">GetTempPathA()</a>,
         <a href="https://docs.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-createfilea">CreateFileA()</a>,
         <a href="https://docs.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-writefile">WriteFile()</a>,
         <a href="https://docs.microsoft.com/en-us/windows/win32/api/handleapi/nf-handleapi-closehandle">CloseHandle()</a>,
-        <a href="https://docs.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regsetkeyvaluea">RegSetKeyValueA()</a>,
         <a href="https://docs.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regclosekey">RegCloseKey()</a>.
     </li>
   </ul>
