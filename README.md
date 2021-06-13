@@ -52,23 +52,24 @@ Menu driven <a href="https://en.wikipedia.org/wiki/Command-line_interface">CLI</
   <ul> 
     <li>
         When application is launched, the console window will opened and gets auto-maximized containing some fancy text representing the name of application with few numbered menu options to choose from : <BR />
-        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+        <p align="center"><img src="AppScreens/Launch.png" /></p>
     </li>
     <li>
         To get information about website, first set the domain using option '<b>1</b>' (the domain should be in form of <i><a href="http://www.example.com/">www.example.com</a></i> or <i><a href="http://www.example.com/">example.com</a></i>) : <BR />
-        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+        <p align="center"><img src="AppScreens/ToSetWebsiteDomain.png" /></p>
     </li>
     <li>
         Now the website domain is all set; the other related menu options also get reflected : <BR />
-        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+        <p align="center"><img src="AppScreens/AfterWebsiteDomainSet.png" /></p>
     </li>
     <li>
-        Setting the website domain is essential to get results otherwise one can not use menu options related to website domains : <BR />
-        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+        Setting the website domain is essential to get results otherwise one can not use menu options '<b>2</b>' and '<b>3</b>' related to website domains : <BR />
+        <p align="center"><img src="AppScreens/TriedWithoutDomain.png" /></p>
     </li>
     <li>
         Providing <i>empty</i> input will clear the domain that is set previously : <BR />
-        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+        <p align="center"><img src="AppScreens/EmptyInput_1.png" /></p>
+        <p align="center"><img src="AppScreens/EmptyInput_2.png" /></p>
     </li>
   </ul>
 
