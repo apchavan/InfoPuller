@@ -98,7 +98,7 @@ Menu driven <a href="https://en.wikipedia.org/wiki/Command-line_interface">CLI</
         If user opted to save (S), program will save the response content in uniquely generated TEMP file and again will ask whether to view saved file in notepad (by creating separate process) : <BR />
         <p align="center"><img src="AppScreens/RobotsTxtAskToOpen.png" /></p>
         <p align="center"><img src="AppScreens/RobotsTxtAfterOpen.png" /></p>
-        <p align="center">The file opened in notepad as a separate process.</p>
+        <p align="center"><i>The file opened in notepad as a separate process.</i></p>
     </li>
     <li>
         If user opted to print (p), program will print the response content in console : <BR />
