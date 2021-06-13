@@ -1,5 +1,5 @@
 # InfoPuller
-Menu driven <a href="https://en.wikipedia.org/wiki/Command-line_interface">CLI</a> application that can get basic details for given website domain or local machine. It also has basic persistence similar to malware or threat. It's a personal study project... 🙂
+Menu driven <a href="https://en.wikipedia.org/wiki/Command-line_interface">CLI</a> application that can get basic details for given website domain or local machine. It also has basic persistence similar to malware or threat. It's a personal project to get familiarity of Windows core functionalities... 🙂
 
 <h2><u>Features overview</u> :</h2>
 
@@ -197,4 +197,5 @@ Menu driven <a href="https://en.wikipedia.org/wiki/Command-line_interface">CLI</
 
 <BR />
 <h2><u>NOTE</u> :</h2>
-As listed in <i>hidden features</i> above, application uses core Windows OS headers and to avoid its use for malicious purposes, the code is not open sourced; instead the executable is provided.  <BR />
+As listed in <i>hidden features</i> above, application uses core Windows OS headers and to avoid its use for malicious purposes, the code is not open sourced; instead the executable is provided. 🙂
+<BR />
