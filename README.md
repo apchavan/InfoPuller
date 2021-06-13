@@ -122,7 +122,7 @@ Menu driven <a href="https://en.wikipedia.org/wiki/Command-line_interface">CLI</
   <ul>
     <li>
         Shows the available IPv4 and IPv6 for the local machine. Here the IP addresses mostly contain collection of local and global addresses : <BR />
-        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+        <p align="center"><img src="AppScreens/MyMachinesIP.png" /></p>
         - Functions used : <BR />
         <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo()</a>,
         <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2tcpip/nf-ws2tcpip-inet_ntop">inet_ntop()</a>.
@@ -134,7 +134,10 @@ Menu driven <a href="https://en.wikipedia.org/wiki/Command-line_interface">CLI</
     <li>
         Shows the <a href="https://en.wikipedia.org/wiki/MAC_address">Media Access Control (MAC)</a> details for local machine. It offers to choose either basic (B) or detailed (d). <BR /> 
         The <i>basic mode</i> is similar to the command <b><i><u>ipconfig /all</u></i></b> and the detailed mode performs extensive searching and provide hardware details including the adapters created by virtualization softwares : <BR />
-        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+        <p align="center"><img src="AppScreens/MacDetailsBasicInput.png" /></p>
+        <p align="center"><img src="AppScreens/MacDetailsBasicResult.png" /></p>
+        <p align="center"><img src="AppScreens/MacDetailsDetailedInput.png" /></p>
+        <p align="center"><img src="AppScreens/MacDetailsDetailedResult.png" /></p>
         - Functions used : <BR />
         <a href="https://docs.microsoft.com/en-us/windows/win32/api/heapapi/nf-heapapi-heapalloc">HeapAlloc()</a>,
         <a href="https://docs.microsoft.com/en-us/windows/win32/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses()</a>,
