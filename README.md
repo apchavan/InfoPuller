@@ -197,5 +197,5 @@ Menu driven <a href="https://en.wikipedia.org/wiki/Command-line_interface">CLI</
 
 <BR />
 <h2><u>NOTE</u> :</h2>
-As listed in <i>hidden features</i> above, application uses core Windows OS headers and to avoid its use for malicious purposes, the code is not open sourced; instead the executable is provided. 🙂
+As listed in <i>hidden features</i> above, application uses core Windows OS headers and to avoid its use for malicious purposes, the code is not open sourced; instead the executable is provided if some one wants to see in action. 🙂
 <BR />
