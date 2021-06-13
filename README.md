@@ -102,7 +102,7 @@ Menu driven <a href="https://en.wikipedia.org/wiki/Command-line_interface">CLI</
     </li>
     <li>
         If user opted to print (p), program will print the response content in console : <BR />
-        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+        <p align="center"><img src="AppScreens/RobotsTxtPrint.png" /></p>
         - Functions used : <BR />
         <a href="https://docs.microsoft.com/en-us/windows/win32/api/wininet/nf-wininet-internetopena">InternetOpenA()</a>,
         <a href="https://docs.microsoft.com/en-us/windows/win32/api/wininet/nf-wininet-internetopenurla">InternetOpenUrlA()</a>,
