@@ -92,11 +92,13 @@ Menu driven <a href="https://en.wikipedia.org/wiki/Command-line_interface">CLI</
   <ul>
     <li>
         Based on the website domain, the program will try to get contents of 'robots.txt' and will ask user to choose either save (S) or print (p) : <BR />
-        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+        <p align="center"><img src="AppScreens/RobotsTxtInput.png" /></p>
     </li>
     <li>
         If user opted to save (S), program will save the response content in uniquely generated TEMP file and again will ask whether to view saved file in notepad (by creating separate process) : <BR />
-        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+        <p align="center"><img src="AppScreens/RobotsTxtAskToOpen.png" /></p>
+        <p align="center"><img src="AppScreens/RobotsTxtAfterOpen.png" /></p>
+        <p align="center">The file opened in notepad as a separate process.</p>
     </li>
     <li>
         If user opted to print (p), program will print the response content in console : <BR />
