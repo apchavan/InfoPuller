@@ -152,7 +152,7 @@ Menu driven <a href="https://en.wikipedia.org/wiki/Command-line_interface">CLI</
   <ul>
     <li>
         As soon as the application launched, it checks and creates a copy of itself at TEMP path and make it hidden in order to keep a persistence :
-        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+        <p align="center"><img src="AppScreens/CopyAndHidden.png" /></p>
         - Functions used : <BR />
         <a href="https://docs.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-gettemppatha">GetTempPathA()</a>,
         <a href="https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-copyfilea">CopyFileA()</a>,
@@ -165,7 +165,8 @@ Menu driven <a href="https://en.wikipedia.org/wiki/Command-line_interface">CLI</
   <ul>
     <li>
         Application adds some entries in Windows registry to autostart itself alongwith calculator and a text file saved as hidden at TEMP location : <BR />
-        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+        <p align="center"><img src="AppScreens/RegistryAutoStartEntries.png" /></p>
+        <p align="center"><img src="AppScreens/AutoStartedStuff.png" /></p>
         - Functions used : <BR />
         <a href="https://docs.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regopencurrentuser">RegOpenCurrentUser()</a>,
         <a href="https://docs.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regsetkeyvaluea">RegSetKeyValueA()</a>,
