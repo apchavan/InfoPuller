@@ -77,11 +77,11 @@ Menu driven <a href="https://en.wikipedia.org/wiki/Command-line_interface">CLI</
   <ul>
     <li>
         If the website domain set properly, program will list of all available IPv4 and IPv6 addresses : <BR />
-        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+        <p align="center"><img src="AppScreens/ListDomainIP.png" /></p>
     </li>
     <li>
         If any of IPv4 or IPv6 is not available, then useful message with related error code is returned : <BR />
-        <p align="center"><img src="AppScreens/Main_app.png" /></p>
+        <p align="center"><img src="AppScreens/IPNotAvailable.png" /></p>
         - Functions used : <BR />
         <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo()</a>,
         <a href="https://docs.microsoft.com/en-us/windows/win32/api/ws2tcpip/nf-ws2tcpip-inet_ntop">inet_ntop()</a>.
