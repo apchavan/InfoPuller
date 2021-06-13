@@ -146,6 +146,12 @@ Menu driven <a href="https://en.wikipedia.org/wiki/Command-line_interface">CLI</
     </li>
   </ul>
 
+  <h3><b> Help :</b></h3>
+  Provides the usage information about the application. <BR />
+  <p align="center"><img src="AppScreens/ShowHelpInput.png" /></p>
+  <p align="center"><img src="AppScreens/ShowHelpResult.png" /></p>
+  <BR />
+
 <h3>{🌟} <u><i>Hidden</i></u> key features : </h3>
 
   <h3><b>1. Copy application and make hidden :</b></h3>
