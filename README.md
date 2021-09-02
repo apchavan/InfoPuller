@@ -15,7 +15,7 @@ Menu driven <a href="https://en.wikipedia.org/wiki/Command-line_interface">CLI</
 - The application copies itself to other place and becomes hidden.
 - Makes changes in Windows registry to autostart things after every system startup.
 
-- [x] After follwing this file, make sure to read post on <a href="https://apchavan.medium.com/a67f28791e0b">Medium.com</a> which explains the <i>hidden</i> features in more detail.
+- [x] After follwing this file, make sure to read post on <a href="https://apchavan.medium.com/a67f28791e0b"><i><b>Medium.com</b></i></a> which explains the <i>hidden</i> features in more detail.
 
 <h2><u><a href="https://docs.microsoft.com/en-us/windows/win32/api/">Win32</a> API headers</u> :</h2>
 
